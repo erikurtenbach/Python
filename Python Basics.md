@@ -74,6 +74,7 @@ numbers
 i = 0
 while i < 10:
     print(i, end=' ')
+    i += 1
 ```
 
 ## For
@@ -85,4 +86,9 @@ for mult in multiplicands:
 product
 >360
 ```
-    i += 1
+```
+squares = []
+for n in range(10):
+    squares.append(n**2)
+squares
+```
