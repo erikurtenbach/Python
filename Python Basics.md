@@ -50,3 +50,39 @@ planets.append('Pluto') - "adiciona ao ultimo item da lista"
 planets.index('Earth')
 2
 ```
+## Tuples
+Igual a listas porém imutáveis
+```
+t = (1, 2, 3)
+```
+
+## Dictionaries
+Dictionaries are a built-in Python data structure for mapping keys to values.
+```
+numbers = {'one':1, 'two':2, 'three':3}
+numbers['one']
+>1
+```
+
+```
+numbers['eleven'] = 11
+numbers
+>{'one': 1, 'two': 2, 'three': 3, 'eleven': 11}
+```
+## While
+```
+i = 0
+while i < 10:
+    print(i, end=' ')
+```
+
+## For
+```
+multiplicands = (2, 2, 2, 3, 3, 5)
+product = 1
+for mult in multiplicands:
+    product = product * mult
+product
+>360
+```
+    i += 1
