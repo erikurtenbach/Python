@@ -80,3 +80,14 @@ print(pd.DataFrame(my_df))
     2  6
     3  7
 ```
+## Abrir/Salvar DataFrame em CSV
+Abrir CSV
+```
+reviews = pd.read_csv('../input/wine-reviews/winemag-data_first150k.csv')
+```
+Salvar em CSV
+```
+animals = pd.DataFrame({'Cows': [12, 20], 'Goats': [22, 19]}, index=['Year 1', 'Year 2'])
+animals.to_csv("cows_and_goats.csv")
+```
+
