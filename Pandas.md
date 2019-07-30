@@ -12,6 +12,16 @@ data[0:,1]
                
 # Pandas
 ## DataFrame
+Fazer um DataFrame
+```
+fruit_sales = pd.DataFrame([[35,21],[41,34]],index=['2017 Sales','2018 Sales'],columns=['Apples', 'Bananas'])
+fruit sales:
+>
+
+            Apples	Bananas
+2017 Sales	35	21
+2018 Sales	41	34
+```
 From array
 ```
 data = np.array([['','Col1','Col2'],
