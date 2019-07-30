@@ -11,6 +11,18 @@ data[0:,1]
 ```
                
 # Pandas
+## Series
+```
+ingredients = pd.Series({'Flour':'4 cups','Milk':'1 cup','Eggs':'2 large','Spam':'1 can'},name= 'Dinner')
+ingredients
+>
+Flour     4 cups
+Milk       1 cup
+Eggs     2 large
+Spam       1 can
+Name: Dinner, dtype: object
+
+```
 ## DataFrame
 Fazer um DataFrame
 ```
